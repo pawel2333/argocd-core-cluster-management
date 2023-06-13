@@ -7,5 +7,5 @@ helmGlobals:
 helmCharts:
   - name: hello-world
     repo: https://helm.github.io/examples
-    version: 1.16.0
+    version: 0.1.0
     valuesFile: values.yaml
