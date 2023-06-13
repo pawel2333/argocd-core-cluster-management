@@ -156,7 +156,7 @@ Run the following command to assign our cluster to the `test` group:
 
 
 ```bash
-$ kustomize build https://github.com/alexmt/argocd-core-cluster-management//clusters/groups/test/argocd | kubectl apply -f -
+$ kustomize build https://github.com/pkruk/argocd-core-cluster-management//clusters/groups/test/argocd | kubectl apply -f -
 ```
 
 After applying the manifests you should see that the `grafana` application now uses manifests from `clusters/groups/test/grafana` directory:
