@@ -6,6 +6,13 @@ resources:
 
 patches:
 - target:
+    name: hello-world
+    kind: Deployment
+  patch: |-
+    - op: replace
+      path: /spec/replicas
+      value: 2
+- target:
     name: in-cluster
     kind: Secret
   patch: |-
