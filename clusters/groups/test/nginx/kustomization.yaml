@@ -6,7 +6,7 @@ resources:
 
 patches:
 - target:
-    name: in-cluster
+    name: release-name-hello-world
     kind: Deployment
   patch: |-
     - op: replace
