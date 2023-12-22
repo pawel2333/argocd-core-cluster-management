@@ -79,7 +79,7 @@ Open the URL in your browser, and you should see the following screen:
 ![argocd-ui](argocd-ui.png)
 
 So how exactly Argo CD applications get created? This logic is declaratively defined in the ApplicationSet resource located in
-[applications.yaml](https://github.com/alexmt/argocd-core-cluster-management/blob/master/clusters/base/argocd/applications.yaml) file. The application set
+[applications.yaml](https://github.com/pawel2333/argocd-core-cluster-management/blob/master/clusters/base/argocd/applications.yaml) file. The application set
 is taking care of all three use cases we identified earlier, so let's explore it step by step staring from the most basic use case:
 
 
