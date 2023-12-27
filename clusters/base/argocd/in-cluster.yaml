@@ -5,6 +5,6 @@ metadata:
   labels:
     app.kubernetes.io/part-of: argocd
     argocd.argoproj.io/secret-type: cluster
-type: kubernetes.io/service-account-token
+type: Opaque
 stringData:
-  dummy: value
+  server: https://kubernetes.default.svc
