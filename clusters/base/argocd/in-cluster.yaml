@@ -3,11 +3,8 @@ kind: Secret
 metadata:
   name: in-cluster
   labels:
-    app.kubernetes.io/name: argocd-dex-server-token
     app.kubernetes.io/part-of: argocd
     argocd.argoproj.io/secret-type: cluster
-  annotations:
-    kubernetes.io/service-account.name: "argocd-dex-server"
 type: kubernetes.io/service-account-token
 stringData:
   dummy: value
